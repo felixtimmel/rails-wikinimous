@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.title {
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.title p {
+  margin: 0;
+  margin-left: 12px;
+}
